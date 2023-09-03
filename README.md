@@ -1,0 +1,2 @@
+# beans.floralily.dev
+BEANS
