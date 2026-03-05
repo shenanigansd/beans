@@ -2,16 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Beans</title>
-    <meta property="og:title" content="Beans" />
+    <title>Freshly Baked Beans</title>
+    <meta property="og:title" content="Freshly Baked Dog Toe Beans" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://shenanigans.dog/beans/beans.png" />
-    <meta property="og:description" content="An explanation of how OpenGraph embeds work." />
+    <meta property="og:description" content="Look at these magnificent little paw pads. 10/10 would boop. Warning: May cause uncontrollable squealing." />
     <meta property="og:url" content="https://shenanigans.dog/beans/" />
+    <style>
+        .image-box {
+            border: 2px solid #ccc;
+            padding: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 800px;
+        }
+    </style>
 </head>
 <body>
-    <img src="beans.png" alt="Beans" />
-    <p>OpenGraph embeds work by adding specific &lt;meta&gt; tags to the &lt;head&gt; of your HTML document. When a link to your page is shared on platforms that support OpenGraph, these platforms scrape your page for these meta tags (such as og:title, og:image, og:description). They then use this metadata to generate a rich preview card with an image, title, and description, making the shared link more engaging and informative than a simple text URL.</p>
-    <a href="beans.png" target="_blank"><button>View Full Image</button></a>
+    <div class="image-box">
+        <img src="beans.png" alt="Dog Toe Beans" />
+    </div>
+
+    <h2>How to Make Your Own OpenGraph Embed</h2>
+    <p>To make your own rich preview embed when sharing a link on social media or messaging platforms, you need to add special OpenGraph <code>&lt;meta&gt;</code> tags to the <code>&lt;head&gt;</code> section of your HTML document. These tags tell the platform what title, description, and image to display in the preview card.</p>
+
+    <p>Here is an example of the meta tags used for this page:</p>
+    <pre><code>&lt;meta property="og:title" content="Freshly Baked Dog Toe Beans" /&gt;
+&lt;meta property="og:type" content="website" /&gt;
+&lt;meta property="og:image" content="https://shenanigans.dog/beans/beans.png" /&gt;
+&lt;meta property="og:description" content="Look at these magnificent little paw pads. 10/10 would boop. Warning: May cause uncontrollable squealing." /&gt;
+&lt;meta property="og:url" content="https://shenanigans.dog/beans/" /&gt;</code></pre>
+
+    <a href="beans.png" target="_blank"><button>just wanna see the beans?</button></a>
 </body>
 </html>
